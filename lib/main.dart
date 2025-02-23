@@ -92,7 +92,7 @@ class _BookHomePageState extends State<BookHomePage> {
   String currentQuery = '';
   final TextEditingController _searchController = TextEditingController();
 
-  final String apiKey = 'AIzaSyDQCZIusX3G5z3b0X-Xp5NEOo2IzSrOKq4';
+  final String apiKey = 'apikey';
   final String baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
 
   @override
